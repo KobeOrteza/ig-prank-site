@@ -1,3 +1,3 @@
 # ig-prank-site
 hello
-https://KobeOrteza.github.io/repository-name
+https://KobeOrteza.github.io/ig-prank-site
