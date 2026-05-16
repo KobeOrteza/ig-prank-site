@@ -1,1 +1,37 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  overflow: hidden;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at top left, #ff2d55, transparent 30%),
+    radial-gradient(circle at bottom right, #7928ca, transparent 30%),
+    #0f0f0f;
+  filter: blur(20px);
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  width: 350px;
+  padding: 35px;
+  border-radius: 28px;
+}
