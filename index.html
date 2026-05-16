@@ -1,57 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <title>Caught You</title>
+  <title>Private Viewer Access</title>
 
   <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
 
   <div class="bg pink"></div>
 
-  <div class="card reveal-card">
+  <div class="card">
 
-    <h1 class="title">
-      STALKER DETECTED
-    </h1>
-
-    <img
-      class="avatar small"
-      src="./hehe.jpeg"
-    />
-
-    <h2 class="username">
-      @secret_crush
-    </h2>
-
-    <p class="message">
-      Ano di ka pa aamin?<br><br>
-
-      Nahuli na kita.<br><br>
-
-      Crush mo ba ako?
-    </p>
-
-    <div class="meter">
-      <div class="fill pink-fill"></div>
+    <div class="top-badge">
+      PRIVATE ACCESS
     </div>
 
-    <p class="obsession">
-      Obsession Level: 99%
+    <h1 class="main-title">
+      Private Instagram Content
+    </h1>
+
+    <p class="subtitle">
+      Continue to unlock exclusive content
     </p>
 
-    <button
-      class="chat-btn"
-      onclick="window.location.href='https://instagram.com/YOURUSERNAME'"
-    >
-      i chachat ko ako or ichachat mo ako?
+    <button id="loginBtn" class="main-btn">
+      Continue with Instagram
     </button>
 
+    <div id="loading" class="hidden loading-box">
+
+      <div class="spinner"></div>
+
+      <p id="scanText">
+        Scanning visitor...
+      </p>
+
+    </div>
+
   </div>
+
+  <script src="./script.js"></script>
 
 </body>
 </html>
